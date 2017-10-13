@@ -1,0 +1,26 @@
+{
+    "name": "projectname",
+    "type": "project",
+    "description": "Project beschrijving",
+    "authors": [
+        {
+            "name": "Kees Gerbers",
+            "email": "keesgerbers@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github/branch.git"
+        }
+    ],
+    "require": {
+        "php": "~5.6.0 || ~7.0.0 || ~7.1.0"
+    },
+    "config": {
+        "platform": {
+            "php": "7.0"
+        }
+    }
+}
