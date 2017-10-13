@@ -6,7 +6,7 @@ Open file in nano:
 `nano~/.config/user-dirs.dirs`
 
 Make sure the line below match
-`XDG_TEMPLATES_DIR="$HOME/Templates"`
+`XDG_TEMPLATES_DIR="$HOME/Templates/Files"`
 
 Update user dirs
 `xdg-user-dirs-update`
